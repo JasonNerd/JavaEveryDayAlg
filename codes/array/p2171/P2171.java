@@ -1,4 +1,4 @@
-package codes.java.p2171;
+package codes.array.p2171;
 
 import java.util.Arrays;
 
