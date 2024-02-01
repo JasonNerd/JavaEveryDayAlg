@@ -1,4 +1,4 @@
-package codes.twopinters;
+package codes.twopinters.p1877;
 // https://books.halfrost.com/leetcode/ChapterFour/1800~1899/1877.Minimize-Maximum-Pair-Sum-in-Array/
 // https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array/description
 /*
