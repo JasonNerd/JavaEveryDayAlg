@@ -27,7 +27,7 @@ package codes.twopinters.p1721;
 0 <= Node.val <= 100
  */
 public class p1721 {
-    public static void print(ListNode head){
+    public static void print_list(ListNode head){
         while (head != null) {
             System.out.print(head.val);
             if (head.next != null)
@@ -35,7 +35,7 @@ public class p1721 {
             head = head.next;
         }
     }
-    public static ListNode create(int a[]){
+    public static ListNode create_list(int a[]){
         ListNode head = new ListNode(a[0]);
         ListNode p = head;
         for(int i=1; i<a.length; i++){
@@ -70,7 +70,7 @@ public class p1721 {
         // head = [1,2,3], k = 2
         int[] head = {1,2,3};
         int k = 2;
-        print(new p1721().swapNodes(create(head), k));
+        print_list(new p1721().swapNodes(create_list(head), k));
     }
 }
 
