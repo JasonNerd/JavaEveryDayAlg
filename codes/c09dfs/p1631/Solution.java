@@ -29,10 +29,12 @@ public class Solution {
                 {3,8,4}, 
                 {5,3,5}
             };
-        }else{
+        }else if (i==4){
             return new int[][]{
                 {1,10,6,7,9,10,4,9}
             };
+        }else{
+            return new int[][]{{1,1000000}};
         }
     }
 
